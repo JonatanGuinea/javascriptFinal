@@ -1,0 +1,213 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('../img/foto-inicio.webp') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(51, 51, 51, 0.7);
+  padding: 10px 0;
+  color: white;
+  width: 100%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.contenedor-central{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cuenta-container,
+.plazo-fijo-container, .login-form,.cotizacion-container{
+  padding: 20px;
+  max-width: 300px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Centra los contenedores */
+  margin-top: 20px; /* Espacio superior entre contenedores */
+}
+
+.cuenta-container h2,
+.plazo-fijo-container h2{
+  margin-top: 0;
+}
+
+.agregar-dinero,
+.transferir-dinero,
+.plazo-fijo-container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.agregar-dinero:hover,
+.transferir-dinero:hover,
+.plazo-fijo-container button:hover {
+  background-color: #555;
+}
+
+.saldo {
+  font-size: 30px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.modal-content button, select {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #555;
+}
+
+.resultado {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.navbar-brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 1rem;
+}
+
+.navbar-links a:hover {
+  background-color: #555;
+}
+
+.plazo-fijo{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 400px;
+}
+
+.plazo-fijo input[type="number"],
+.plazo-fijo button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.plazo-fijo input[type="number"] {
+  box-sizing: border-box;
+}
+
+.plazo-fijo button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.plazo-fijo button:hover {
+  background-color: #555;
+}
+
+.resultado {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+
+.h2-plazofijo{
+  background-color: #888;
+}
+

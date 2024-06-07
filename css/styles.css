@@ -115,16 +115,17 @@ h1 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.modal-content button:hover {
-  background-color: #555;
-}
-
-.resultado {
-  margin-top: 10px;
-  font-weight: bold;
-}
+  }
+  
+  .modal-content button:hover {
+    background-color: #555;
+    }
+    
+    .resultado {
+      margin-top: 20px;
+      font-size: 1.2rem;
+    font-weight: bold;
+    }
 
 
 body {
@@ -201,13 +202,54 @@ body {
   background-color: #555;
 }
 
-.resultado {
-  margin-top: 20px;
-  font-size: 1.2rem;
-}
 
 
 .h2-plazofijo{
   background-color: #888;
 }
 
+
+#historial-movimientos {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+#historial-movimientos h2 {
+  margin-top: 0;
+}
+
+#lista-movimientos {
+  list-style-type: none;
+  padding: 0;
+}
+
+#lista-movimientos li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc; 
+}
+
+#lista-movimientos li:last-child {
+  border-bottom: none; 
+}
+
+.movimiento-ingreso {
+  color: green;
+}
+
+.movimiento-egreso {
+  color: red;
+}
+
+.movimiento {
+  font-weight: bold;
+}
+
+.movimiento span {
+  margin-left: 10px;
+  font-weight: normal;
+}

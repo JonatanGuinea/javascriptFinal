@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     <a href="#">JonBank</a>
                 </div>
                 <div class="navbar-links">
-                    <a href="/Coderhouse/pages/cuenta.html">Cuenta</a>
+                    <a href="/pages/cuenta.html">Cuenta</a>
                     <a href="#">Servicios</a>
-                    <a href="/Coderhouse/pages/cotizacionusd.html">Cotización USD</a>
+                    <a href="/pages/cotizacionusd.html">Cotización USD</a>
                 </div>
             </div>
         </div>

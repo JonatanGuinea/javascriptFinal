@@ -22,9 +22,9 @@ navbar.innerHTML=`
             <a href="#">JonBank</a>
         </div>
         <div class="navbar-links">
-            <a href="/Coderhouse/pages/cuenta.html">Cuenta</a>
-            <a href="/Coderhouse/pages/servicios.html">Servicios</a>
-            <a href="/Coderhouse/pages/cotizacionusd.html">Cotización USD</a>
+            <a href="/pages/cuenta.html">Cuenta</a>
+            <a href="/pages/servicios.html">Servicios</a>
+            <a href="/pages/cotizacionusd.html">Cotización USD</a>
         </div>
     </div>`
 

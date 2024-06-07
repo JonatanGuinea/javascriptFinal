@@ -52,7 +52,7 @@ submit.addEventListener('click', function(event) {
             timer: 1500
             });
         setTimeout(() => {
-            window.location.href = '/Coderhouse/pages/cuenta.html';
+            window.location.href = '/pages/cuenta.html';
             
         }, 1500);
     }
